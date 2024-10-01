@@ -8,7 +8,7 @@ const modals = () => {
         trigger.forEach(item => {
             item.addEventListener('click', (e) => {
                 if(e.target) {
-                    event.preventDefault()
+                    e.preventDefault()
                 }
     
                 modal.style.display = 'block'
